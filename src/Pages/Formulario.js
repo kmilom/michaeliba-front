@@ -1,7 +1,6 @@
 import React from "react";
 import Preguntas from "../components/Preguntas";
 import { Row, Col } from "react-bootstrap";
-import "./Styles/estilos-formulario.css";
 
 export default function Formulario(){
     return(

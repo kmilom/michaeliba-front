@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import "./Styles/estilos-pregunta.css";
 
 const Pregunta = ({pregunta}) => {
     return(

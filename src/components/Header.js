@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import "./Styles/estilos-header.css";
 import { Link } from "react-router-dom";
 
 const Header = () => {

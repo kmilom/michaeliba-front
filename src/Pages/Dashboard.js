@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
-import "./Styles/estilos-dashboard.css";
 
 export default function Dashboard(){
     return(

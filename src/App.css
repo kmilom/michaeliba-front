@@ -2,3 +2,56 @@
     background-color: #add5fa;
     min-height:100vh;
 }
+
+#body{
+    background-color: #add5fa;
+}
+
+#saludo{
+    font-family: 'Times New Roman';
+}
+
+#texto{
+    font-family: Arial;
+}
+
+#caja{
+    background-color:white;
+    margin-top: 15px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#head{
+    background-color: white;
+    font-size: 90%;
+    color: black;
+    margin-bottom: 5px;
+}
+
+#box{
+    background-color:  rgba(252, 252, 252, 0.2);
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#panel{
+    background-color: #fafaf8d7;
+    min-height: 100vh;
+}
+
+#asambleas{
+    border-radius: 10px;
+    background-color: #d7e6f37a;
+}
+
+.text-decoration-none{
+    color: black;
+    margin-top:10px;
+}
+
+.text-center{
+    font-family: 'Times New Roman';
+    margin-top:10px;
+}
