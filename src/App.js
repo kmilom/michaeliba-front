@@ -21,7 +21,7 @@ function App() {
               <Route path="/dashboard" element={<Dashboard />}>
                 <Route path="administrar-usuarios" element={<AdministrarUsuarios />} />
                 <Route path="" element={<GestionarAsambleas />} />
-                <Route path="asamblea/:asambleaId" element={<Asamblea />} />
+                <Route path="asamblea/:idAsamblea" element={<Asamblea />} />
               </Route>
               <Route path="*" element={<NotFound />} />
             </Routes>

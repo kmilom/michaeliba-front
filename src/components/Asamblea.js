@@ -1,10 +1,19 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 import { useParams } from "react-router-dom";
+import { vectorPreguntas } from "../utils/Info";
 
 export default function Asamblea (){
     const params  = useParams();
-    console.log(params)
+
+    let preguntas = vectorPreguntas.filter(pregunta => pregunta.idAsamblea === Number(params.idAsamblea));
+
     return(
-        <h1>{params.id}</h1>
+        <Row>
+            {preguntas.map((p) =>
+            <Col xs={{ span: 6, offset: 3 }} className="text-center">
+                {p.pregunta}
+            </Col>)}
+        </Row>
     );
 }
