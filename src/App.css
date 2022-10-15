@@ -35,6 +35,12 @@
     background-color: #fafaf8d7;
     min-height: 100vh;
 }
+#preguntas{
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    font-family: 'Times New Roman';
+}
 #saludo{
     font-family: 'Times New Roman';
 }

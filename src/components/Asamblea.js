@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { vectorPreguntas } from "../utils/Info";
 import CrearPregunta from "./CrearPregunta";
@@ -13,7 +13,10 @@ export default function Asamblea (){
         <Row>
             <CrearPregunta props={idAsamblea} />
             {preguntas.map((p) =>
-                <Col key={p.id} xs={{ span: 6, offset: 3 }} className="text-center border">{p.pregunta}</Col>
+                <Col id="preguntas" key={p.id} xs={{ span: 6, offset: 3 }} className="border">
+                    <Col>{p.pregunta}</Col>
+                    <Col><Button /></Col>
+                </Col>
             )}
         </Row>
     );

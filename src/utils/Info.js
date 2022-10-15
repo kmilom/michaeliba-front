@@ -10,7 +10,7 @@ export const vectorPreguntas = [
     {id:3, pregunta:"Hace hambre", idAsamblea:1}
 ];
 
-export const vectorPosiblesRespuestas = [
+/*export const vectorPosiblesRespuestas = [
     {id: 1, respuesta: "Sí", idPregunta: 1},
     {id: 2, respuesta: "No", idPregunta: 1},
     {id: 3, respuesta: "No sabe", idPregunta: 1},
@@ -20,4 +20,4 @@ export const vectorPosiblesRespuestas = [
     {id: 7, respuesta: "Sí", idPregunta: 3},
     {id: 8, respuesta: "No", idPregunta: 3},
     {id: 9, respuesta: "No sabe", idPregunta: 3}
-];
+];*/
