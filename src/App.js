@@ -2,6 +2,7 @@ import { Container } from 'react-bootstrap';
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Header from './components/Header';
+import Home from "./Pages/Home";
 import Formulario from "./Pages/Formulario";
 import Dashboard from "./Pages/Dashboard";
 import AdministrarUsuarios from "./components/AdministrarUsuarios";
@@ -17,7 +18,8 @@ function App() {
           <BrowserRouter>
             <Header />
             <Routes>
-              <Route path="/" element={<Formulario />} />
+              <Route path='/' element={<Home />} />
+              <Route path="/formulario" element={<Formulario />} />
               <Route path="/dashboard" element={<Dashboard />}>
                 <Route path="administrar-usuarios" element={<AdministrarUsuarios />} />
                 <Route path="" element={<GestionarAsambleas />} />

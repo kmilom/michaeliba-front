@@ -1,57 +1,52 @@
-#fondo{
-    background-color: #add5fa;
-    min-height:100vh;
+#asambleas{
+    border-radius: 10px;
+    background-color: #d7e6f37a;
+    margin-left: 50px;
+    margin-top: 25px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'Times New Roman';
 }
-
 #body{
     background-color: #add5fa;
 }
-
-#saludo{
-    font-family: 'Times New Roman';
-}
-
-#texto{
-    font-family: Arial;
-}
-
-#caja{
-    background-color:white;
-    margin-top: 15px;
-    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
-
-#head{
-    background-color: white;
-    font-size: 90%;
-    color: black;
-    margin-bottom: 5px;
-}
-
 #box{
     background-color:  rgba(252, 252, 252, 0.2);
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
     margin-top: 5px;
     border-radius: 10px;
 }
-
+#caja{
+    background-color:white;
+    margin-top: 15px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+#fondo{
+    background-color: #add5fa;
+    min-height:100vh;
+}
+#head{
+    background-color: white;
+    font-size: 90%;
+    color: black;
+    margin-bottom: 5px;
+}
 #panel{
     background-color: #fafaf8d7;
     min-height: 100vh;
 }
-
-#asambleas{
-    border-radius: 10px;
-    background-color: #d7e6f37a;
+#saludo{
+    font-family: 'Times New Roman';
 }
-
-.text-decoration-none{
-    color: black;
-    margin-top:10px;
+#texto{
+    font-family: Arial;
 }
 
 .text-center{
     font-family: 'Times New Roman';
+    margin-top:10px;
+}
+.text-decoration-none{
+    color: black;
     margin-top:10px;
 }

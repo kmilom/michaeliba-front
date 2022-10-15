@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Row, Col, Button, Modal, Form } from "react-bootstrap";
+//import { vectorPreguntas } from "../utils/Info";
 
-export default function CrearPregunta (){
+export default function CrearPregunta (props){
 
     const [show, setShow] = useState(false);
 
