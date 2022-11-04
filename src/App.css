@@ -7,10 +7,11 @@
     font-family: 'Times New Roman';
 }
 #body{
-    background-color: #add5fa;
+    background-color: #d0e9f5;
+    /*background-color: #add5fa;*/
 }
 #box{
-    background-color:  rgba(252, 252, 252, 0.2);
+    background-color: #eef8f8;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
     margin-top: 5px;
     border-radius: 10px;
@@ -22,7 +23,7 @@
     border-radius: 10px;
 }
 #fondo{
-    background-color: #add5fa;
+    background-color: #d0e9f5;
     min-height:100vh;
 }
 #head{
@@ -40,6 +41,8 @@
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
     margin-top: 25px;
     font-family: 'Times New Roman';
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 #saludo{
     font-family: 'Times New Roman';

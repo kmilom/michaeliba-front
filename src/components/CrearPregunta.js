@@ -7,7 +7,7 @@ export default function CrearPregunta (props){
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
+    
     const estadoInicialFormPregunta = {
         id: vectorPreguntas.length,
         pregunta: '',
