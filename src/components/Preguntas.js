@@ -13,7 +13,7 @@ export default function Preguntas (){
                             <div>
                                 <input type="radio" value="yes" name={p.id} /> S&iacute;. <br/>
                                 <input type="radio" value="no" name={p.id} /> No. <br/>
-                                <input type="radio" value="non" name={p.id} /> No sabe, no responde. <br/>
+                                <input type="radio" value="non" name={p.id} /> No sabe.<br/>
                             </div>
                         </Row>
                     </Col>

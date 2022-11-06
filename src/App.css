@@ -1,6 +1,6 @@
 #asambleas{
     border-radius: 10px;
-    background-color: #d7e6f37a;
+    background-color: #eef8f8;
     margin-left: 50px;
     margin-top: 25px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
@@ -33,7 +33,7 @@
     margin-bottom: 5px;
 }
 #panel{
-    background-color: #fafaf8d7;
+    background-color: #eef8f8;
     min-height: 100vh;
 }
 #preguntas{
