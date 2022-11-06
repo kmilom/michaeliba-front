@@ -1,41 +1,66 @@
 #asambleas{
-    border-radius: 10px;
-    background-color: #eef8f8;
+    border-radius: 5px;
     margin-left: 50px;
     margin-top: 25px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
     font-family: 'Times New Roman';
+    background-color: white;
+    color: black;
 }
+
 #body{
-    background-color: #d0e9f5;
-    /*background-color: #add5fa;*/
+    background-color: #f4f7fa;
 }
+
 #box{
-    background-color: #eef8f8;
+    background-color: white;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
     margin-top: 5px;
     border-radius: 10px;
 }
+
 #caja{
     background-color:white;
     margin-top: 15px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+
 #fondo{
-    background-color: #d0e9f5;
+    background-color: #f4f7fa;
     min-height:100vh;
 }
+
 #head{
-    background-color: white;
     font-size: 90%;
     color: black;
     margin-bottom: 5px;
 }
-#panel{
-    background-color: #eef8f8;
-    min-height: 100vh;
+
+#link{
+    color: black;
 }
+
+#link:hover{
+    color: #0cebf3;
+}
+
+#link-dash{
+    color: white;
+}
+
+#link-dash:hover{
+    color: #0cebf3;
+}
+
+
+#panel{
+    background-color: #3f4d67;
+    min-height: 100vh;
+    color: white;
+    box-shadow: 5px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
 #preguntas{
     border-radius: 10px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
@@ -44,18 +69,18 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-#saludo{
+
+#text{
     font-family: 'Times New Roman';
-}
-#texto{
-    font-family: Arial;
 }
 
 .text-center{
     font-family: 'Times New Roman';
     margin-top:10px;
 }
+
 .text-decoration-none{
     color: black;
     margin-top:10px;
 }
+

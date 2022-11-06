@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return(
-        <Row id="head" className="border border-secondary">
+        <Row id="head">
             <Col>
                 <Row>
                     <Col xs={{ span: 3 }} className="text-center"><Link className="text-decoration-none" to='/'>Inicio</Link></Col>

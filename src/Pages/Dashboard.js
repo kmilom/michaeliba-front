@@ -1,23 +1,33 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
+import Header from "../components/Header";
 
 export default function Dashboard(){
     return(
         <Row>
-            <Col xs={{ span: 4 }} className="border border-secondary" id="panel">
+            <Col xs={{ span: 3 }} className="border border-secondary" id="panel">
                 <Row>
                     <Col xs={{span:10}} md={{span:10, offset:1}} className="text-center">
-                        <Link to="" className="text-decoration-none" ><h1>Dashboard</h1></Link>
+                        <Link to="" className="text-decoration-none" id="link-dash"><h1>Dashboard</h1></Link>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="text-center" xs={{span:8, offset:2}} md={{span:8, offset:2}}>
-                        <Row><Link to="administrar-usuarios" className="text-decoration-none">Administrar Usuarios</Link></Row>
+                        <Row><Link to="gestionar-asambleas" className="text-decoration-none" id="link-dash">Asambleas</Link></Row>
                     </Col>
-                </Row>                  
+                </Row>
+                <Row>
+                    <Col className="text-center" xs={{span:8, offset:2}} md={{span:8, offset:2}}>
+                        <Row><Link to="administrar-usuarios" className="text-decoration-none" id="link-dash">Usuarios</Link></Row>
+                    </Col>
+                </Row>    
             </Col>
-            <Col><Outlet /></Col>
+            <Col>
+            <Row><Header/></Row>
+            <Row><Col><Outlet /></Col></Row>
+            </Col>
         </Row>
     );
 }
+
