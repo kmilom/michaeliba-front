@@ -1,12 +1,5 @@
 import { createContext } from "react";
 
-export const GlobalContext = createContext();
+const PreguntasContext = createContext()
 
-export default function GlobalContextProvider(props){
-
-    return(
-       <GlobalContext.Provider value={0}>
-            {props.children}
-       </GlobalContext.Provider>
-    );
-}
+export default PreguntasContext

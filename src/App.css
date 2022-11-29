@@ -1,10 +1,13 @@
 #asambleas{
-    border-radius: 5px;
+    background: white;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
     margin-left: 50px;
     margin-top: 25px;
-    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
     font-family: 'Times New Roman';
-    background-color: white;
     color: black;
 }
 
@@ -27,7 +30,7 @@
 }
 
 #fondo{
-    background-color: #f4f7fa;
+    background-color: #b5cbe0;
     min-height:100vh;
 }
 
@@ -35,6 +38,64 @@
     font-size: 90%;
     color: black;
     margin-bottom: 5px;
+}
+
+#home-header{
+    font-size: 200%;
+    background-color: #99959559;
+}
+
+#home-michaeliba{
+    --color: #04d1f5;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+
+#home-michaeliba::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    top: -7px;
+        left: -7px;
+    z-index: -5;
+    border-top: 3px solid var(--color);
+    border-left: 3px solid var(--color);
+    transition: 0.5s;
+}
+
+#home-michaeliba::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    bottom: -7px;
+    right: -7px;
+    z-index: -5;
+    border-right: 3px solid var(--color);
+    border-bottom: 3px solid var(--color);
+    transition: 0.5s;
+}
+
+#home-michaeliba:hover::before {
+    width: 100%;
+    height: 100%;
+}
+   
+#home-michaeliba:hover::after {
+    width: 100%;
+    height: 100%;
+}
+   
+#home-michaeliba  {
+    padding: 0.7em 2em;
+    font-size: 16px;
+    background: #012ef7e0;
+    color: rgb(255, 255, 255);
+    border: none;
 }
 
 #link{
@@ -70,6 +131,7 @@
     padding-bottom: 5px;
 }
 
+/* Fuente del proyecto */
 #text{
     font-family: 'Times New Roman';
 }
@@ -79,8 +141,8 @@
     margin-top:10px;
 }
 
+/* Quitar decoración a los links */
 .text-decoration-none{
     color: black;
     margin-top:10px;
 }
-

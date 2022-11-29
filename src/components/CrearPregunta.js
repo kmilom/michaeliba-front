@@ -1,14 +1,13 @@
-import React, { useState } from "react";
+/*import React, { useState } from "react";
 import { Row, Col, Button, Modal, Form } from "react-bootstrap";
-import { vectorPreguntas } from "../utils/Info";
 
-export default function CrearPregunta (props){
+export default function PreguntasForm (props){
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     
-    const estadoInicialFormPregunta = {
+    /*const estadoInicialFormPregunta = {
         id: vectorPreguntas.length,
         pregunta: '',
         idAsamblea: Number(props.props)
@@ -39,7 +38,7 @@ export default function CrearPregunta (props){
                 </Modal.Header>
 
                 <Modal.Body>
-                    <Form onSubmit={onSubmitForm}>
+                    <Form >
                         <Form.Group>
                             <Row>
                                 <Form.Label column sm={{ span: 2, offset: 2 }}>Pregunta</Form.Label>
@@ -59,4 +58,4 @@ export default function CrearPregunta (props){
             </Modal>
         </Row>
     );
-}
+}*/
